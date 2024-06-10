@@ -26,7 +26,7 @@ int main(){
     vector<Solutions> solutions;
 
     const int NUM_GEN = 1'000; // liczba genow
-    const int GENERATIONS_SIZE = 1000; // liczba generacji
+    const int GENERATIONS_SIZE = 100; // liczba generacji
     const int SAMPLE_SIZE = 100; // liczba poczatkowych genow ktore beda mutowac (musi byc co najmniej 2 razy mniejsze od [NUM_GEN])
 
     double best = INT_MIN; // Najlepszy [score] gena do porownywania czy nastapil progres w generacji
